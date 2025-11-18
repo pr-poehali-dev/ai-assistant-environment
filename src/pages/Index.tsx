@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { ResizablePanelGroup, ResizablePanel, ResizableHandle } from '@/components/ui/resizable';
-import Editor from '@/components/webapp/Editor';
-import FileTree, { FileNode } from '@/components/webapp/FileTree';
-import { Terminal } from '@/components/webapp/Terminal';
+import Editor from '@/components/Editor';
+import FileTree, { FileNode } from '@/components/FileTree';
+import { Terminal } from '@/components/Terminal';
 import Icon from '@/components/ui/icon';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
